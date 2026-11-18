@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第8回 4市一括レポート 長岡・柏崎・上越・三条 (2026年11月11日)</title>
+<style>
+  body { font-family:"Hiragino Sans","Yu Gothic","Meiryo",sans-serif; max-width:1140px; margin:0 auto; padding:24px; color:#222; background:#fff; line-height:1.7; }
+  h1 { font-size:23px; border-bottom:3px solid #1a4f8a; padding-bottom:10px; margin-bottom:6px; }
+  h2 { font-size:19px; margin-top:42px; color:#1a4f8a; border-left:7px solid #1a4f8a; padding-left:12px; }
+  h3 { font-size:15px; margin-top:26px; color:#333; border-bottom:1px solid #ddd; padding-bottom:4px; }
+  .meta { color:#666; font-size:13px; margin-bottom:20px; }
+  .scroll { overflow-x:auto; margin-bottom:16px; }
+  table { width:100%; border-collapse:collapse; font-size:13px; background:#fff; min-width:720px; }
+  th,td { border:1px solid #dcdcdc; padding:7px 9px; text-align:left; vertical-align:top; }
+  th { background:#1a4f8a; color:#fff; font-weight:600; white-space:nowrap; }
+  tr:nth-child(even) td { background:#f5f8fc; }
+  .rank { font-weight:700; text-align:center; width:34px; }
+  .A { background:#d9f0d9 !important; color:#16621a; }
+  .B { background:#fdf2cf !important; color:#8a6100; }
+  .C { background:#f0f0f0 !important; color:#888; }
+  tr.dim td { color:#999; }
+  tr.dim a { color:#7d95b3; }
+  tr.gone td { background:#fbeaea !important; color:#b04a42; }
+  .src { white-space:nowrap; font-size:12px; }
+  .note { background:#fff8e1; border:1px solid #f0d878; padding:12px 16px; border-radius:6px; font-size:13px; margin:18px 0; }
+  .alert { background:#fdecea; border:1px solid #f5a9a0; padding:12px 16px; border-radius:6px; font-size:13px; margin:18px 0; }
+  .win { background:#eaf6ea; border:1px solid #a9d6ab; padding:12px 16px; border-radius:6px; font-size:13px; margin:18px 0; }
+  .calm { background:#eef3f9; border:1px solid #b8cde4; padding:12px 16px; border-radius:6px; font-size:13px; margin:18px 0; }
+  .new { display:inline-block; background:#c0392b; color:#fff; font-size:10px; font-weight:700; padding:1px 5px; border-radius:3px; vertical-align:middle; margin-left:4px; }
+  .keep { display:inline-block; background:#1a7f37; color:#fff; font-size:10px; font-weight:700; padding:1px 5px; border-radius:3px; vertical-align:middle; margin-left:4px; }
+  .sources { font-size:12px; color:#555; margin-top:46px; border-top:1px solid #ddd; padding-top:16px; }
+  a { color:#1a4f8a; }
+  ul { padding-left:22px; }
+  .legend { font-size:12px; color:#555; margin:8px 0 18px; }
+  .legend span { display:inline-block; padding:2px 8px; border-radius:3px; margin-right:8px; font-weight:700; }
+  ol.actions { counter-reset:item; padding-left:0; list-style:none; }
+  ol.actions li { counter-increment:item; margin-bottom:12px; padding-left:38px; position:relative; }
+  ol.actions li::before { content:counter(item); position:absolute; left:0; top:1px; width:26px; height:26px; border-radius:50%; background:#1a4f8a; color:#fff; text-align:center; line-height:26px; font-size:13px; font-weight:700; }
+  code { background:#f2f4f7; padding:1px 4px; border-radius:3px; font-size:12px; }
+</style>
+</head>
+<body>
+
+<h1>第8回 4市一括レポート／長岡・柏崎・上越・三条</h1>
+<div class="meta">作成日：2026年11月11日（水）／対象：長岡市・柏崎市・上越市・三条市／担当：稲葉君<br>
+ご依頼：「最新の長岡・柏崎・上越・三条の物件調べておいて」／前回：第7回（2026-10-30・長岡）、柏崎インベントリ（2026-11-03）<br>
+判定基準：<strong>無柱10m×30m＝300㎡</strong>（<code>検討メモ/屋内練習場_要求スペック.md</code>）／収録<strong>65行</strong>（A 13・B 32・C 18）<span style="color:#8338a8">※11/11 追記で三条2件を追加</span><br>
+全件データ：<code>2026-11-11_4市_物件一覧.csv</code>（18列・物件URL付き）</div>
+
+<div class="alert" style="background:#f3e8fd;border-color:#c9a6ec;">
+<strong>【2026-11-11 追記】三条市の物件リンクが全件抜けていた。原因と、その過程で見つかった取りこぼし2件。</strong><br>
+三条の本命はハトマークサイトとgoo住宅にしかないため、物件URLとして<strong>一覧ページのURLしか記録していなかった</strong>
+（長岡・柏崎・上越はらくすむの詳細URLがあったのでリンク済みだった）。
+ハトマークサイトの詳細ページは <code>/search/niigata/bukken/&lt;物件番号&gt;</code> で、一覧ページから取得できる。
+三条の全17件に個別リンクを張り直した。<br>
+<strong>リンクを取り直す過程で、同じ一覧に載っていながら前回のレポートに入れていなかった物件が2件見つかった。</strong><br>
+・<strong>大谷貸倉庫A</strong>（直江町1丁目・1,026㎡・50.05万円/月・ウスタ不動産）…
+賃貸面積は4市で最大だが<strong>「1階一部＋2階全部の部分貸し」</strong>＝1階の面積が不明。<strong>B判定。大谷Bと同じ会社なので電話1本で両方聞ける。</strong><br>
+・<strong>西大崎売倉庫</strong>（西大崎1丁目・建物延1,320.59㎡・土地968.5坪・7,200万円・大和土地建物）…
+三条の売建物で最大。1階は約660㎡の見込みだが価格で落ちる。<strong>C判定。</strong><br>
+なお<strong>大谷貸倉庫Bの「1階542.43㎡」は詳細ページで裏が取れた</strong>（備考は「部分貸し（要相談）」で、Aのような1階一部という限定はない）。<strong>BのA判定は変わらない。</strong>
+収録は<strong>63行→65行</strong>（A 13・B 32・C 18）。</div>
+
+<h2>今回の結論（4行）</h2>
+
+<div class="win"><strong>① 長岡に、市内最大の鉄骨平屋が出た。摂田屋町貸倉庫 983.34㎡（297坪）・45万円/月＝坪1,513円。</strong>
+前回（10/30）のらくすむ貸倉庫29件には無く、今回33件に増えた4件のうちの1件＝<strong>この11日間の新着</strong>。
+<strong>鉄骨造・地上1階建</strong>で、面積は鉄工町（507.15㎡）の1.94倍、坪単価はほぼ同じ。
+ただし備考に<strong>「1969年新築未登記物件」</strong>と明記＝検査済証が存在しない可能性が高く、
+200㎡超の用途変更（倉庫→運動施設）の建築確認が極めて重くなる。<strong>ここが唯一かつ最大の争点。</strong></div>
+
+<div class="win"><strong>② 新築用地の本命も長岡に出た。本与板 売土地 1,075坪・1,075万円＝坪9,993円・準工業地域・市街化区域・造成済み。</strong>
+<strong>準工業地域なので運動施設が建てられ、市街化区域なので43条許可も要らない。</strong>上下水の引込も可。
+坪1万円は長岡市街地（北園町の駐車場＝坪8万円）の1/8。
+同じエリアに<strong>与板貸土地 744坪・10万円/月＝坪134円（準工業）</strong>もあり、買う／借りるを数字で並べられる。</div>
+
+<div class="note"><strong>③ 三条は「平屋806.27㎡」と「1階だけで542.43㎡」が文書で確定した。しかも南四日町3丁目は今月空く。</strong>
+ハトマークサイトの階建表記で、<strong>南四日町3丁目＝地上1階（鉄骨平屋806.27㎡・35.2万円＝坪1,443円）</strong>、
+<strong>大谷貸倉庫B＝地上2階の1階部分542.43㎡（11万円＝坪670円）</strong>と確定。
+南四日町3丁目は<strong>入居2026年11月中旬＝今月中に空く</strong>。
+さらに売買で<strong>島田2丁目 倉庫（建物1,073.8㎡・988万円）</strong>という破格の物件を新たに見つけた。</div>
+
+<div class="calm"><strong>④ 消滅は1件、再掲載が1件。柏崎は8日で動きなし。</strong>
+消滅＝<strong>上越 新光町3丁目 工場・倉庫（6,950万円・準工業）</strong>。
+再掲載＝<strong>長岡 草生津3丁目 倉庫・事務所（615.16㎡・3,600万円）</strong>で、第6回に「消滅＝成約」と記録した物件が戻ってきた。
+<strong>消滅を成約と即断してはいけない</strong>という実例。三条の西潟（680万円）・新光町倉庫も掲載継続を確認した（新光町は4,000万→3,900万に値下げ）。</div>
+
+<div class="legend">
+<span class="A">A</span>現地確認に行く価値あり
+<span class="B">B</span>条件次第・照会で決まる
+<span class="C">C</span>見送り
+</div>
+
+<h2>1. 長岡市 ── 今回いちばん動いた</h2>
+
+<p>らくすむ貸倉庫・貸工場は<strong>29件（10/30）→ 33件（今回）で+4件</strong>。売買その他は127→126件。
+加えて、<strong>11/03に柏崎で見つけた「カテゴリ違いの取りこぼし」を長岡にも適用して全カテゴリを走査した</strong>結果、
+貸事務所71件・貸店舗74件・貸土地38件・売土地786件・中古一戸建て248件から倉庫系が大量に出てきた。</p>
+
+<h3>★この11日間の新着（貸倉庫・貸工場 +4件）</h3>
+<div class="scroll">
+<table>
+<tr><th class="rank">判</th><th>物件名</th><th>面積</th><th>賃料</th><th>構造・築年</th><th>10m×30mに対して</th><th>所見</th></tr>
+
+<tr>
+<td class="rank A">A</td>
+<td><strong><a href="https://www.rakusumu.com/rent/detail/00012-100360">摂田屋町貸倉庫</a></strong><br>長岡市摂田屋町2900-1<span class="new">最大の発見</span></td>
+<td><strong>983.34㎡</strong><br>（297.46坪）</td>
+<td><strong>45万円/月</strong><br><strong>坪1,513円</strong><br>敷3ヶ月<br><small>消費税なし（貸主がインボイス未登録）</small></td>
+<td><strong>鉄骨造・地上1階建</strong><br>1969年新築<br>（築57年・旧耐震）</td>
+<td><strong>長岡市内で最大の鉄骨平屋。297坪あり、無柱10m×30mが取れる可能性が最も高い</strong></td>
+<td><strong>面積は鉄工町（507.15㎡）の1.94倍で、坪単価はほぼ同じ（1,513円 vs 1,434円）。</strong>
+ただし備考に<strong>「1969年新築未登記物件」</strong>＝<strong>検査済証が存在しない可能性が高い。</strong>
+倉庫→運動施設の用途変更は200㎡超で建築確認が必要で、検査済証がないと手続きが極めて重くなる。
+<strong>最初の電話で「検査済証はありますか」「未登記のままで用途変更の確認申請は通りますか」を聞く。</strong></td>
+</tr>
+
+<tr>
+<td class="rank B">B</td>
+<td><a href="https://www.rakusumu.com/rent/detail/00024-100836">喜多町貸倉庫</a><br>長岡市喜多町字鐙潟416番地</td>
+<td>467.22㎡<br>（141.33坪）</td>
+<td>28万円/月（税抜）<br>坪1,981円<br>敷3ヶ月</td>
+<td>鉄骨造・<strong>地上2階建</strong><br>1977年12月（築48年）</td>
+<td>2階建なので1階は約233㎡の見込み。1階面積が争点</td>
+<td><strong>貸主につき仲介手数料無料。</strong>昇降機ありで上下階の荷物移動が可能。敷地内駐車場が広い。即入居可。消雪電気料金は実費・火災保険は借主負担</td>
+</tr>
+
+<tr class="dim">
+<td class="rank C">C</td>
+<td><a href="https://www.rakusumu.com/rent/detail/00322-100023">【与板】貸倉庫・事務所</a><br>長岡市与板町与板字兜巾堂乙5906番地1</td>
+<td>477.66㎡<br>（144.49坪）</td>
+<td>16.5万円/月<br><strong>坪1,142円</strong></td>
+<td><strong>木造・地上3階建</strong><br>1985年1月（築41年）</td>
+<td>木造3階建で不成立（1階は約159㎡）</td>
+<td>坪1,142円で鉄工町より安く一瞬有望に見えたが、詳細で木造3階建と判明して脱落。<strong>同じ建物が売1,980万円でも掲載</strong>（土地336.61坪）</td>
+</tr>
+
+<tr class="dim">
+<td class="rank C">C</td>
+<td><a href="https://www.rakusumu.com/rent/detail/00117-100104">加津保町 貸倉庫</a><br>長岡市加津保町2268番地</td>
+<td>388.11㎡<br>（117.4坪）</td>
+<td>4.5万円/月<br><strong>坪383円</strong><br>敷礼なし</td>
+<td><strong>木造・地上2階建</strong><br>1913年7月（<strong>築113年</strong>）</td>
+<td>木造2階建・築113年で不成立</td>
+<td>坪383円は4市で最安だが築113年の木造。耐震補強費が本体価格を大きく超える</td>
+</tr>
+</table>
+</div>
+
+<h3>★全カテゴリ走査で新たに見つかった長岡の倉庫系（貸倉庫カテゴリに無い）</h3>
+<div class="scroll">
+<table>
+<tr><th class="rank">判</th><th>物件名</th><th>面積</th><th>賃料／価格</th><th>構造・築年</th><th>用途地域</th><th>所見</th></tr>
+
+<tr>
+<td class="rank B">B</td>
+<td><strong><a href="https://www.rakusumu.com/rent/detail/00040-100954">要町1丁目 貸店舗（カラオケ店跡）</a></strong><br>長岡市要町1-982</td>
+<td><strong>487.65㎡</strong><br>（147.51坪）</td>
+<td>27.5万円/月<br>坪1,864円<br>敷3・礼1</td>
+<td><strong>木造・地上1階建</strong><br>1993年3月<br>（築33年・<strong>新耐震</strong>）</td>
+<td>記載なし</td>
+<td><strong>★駐車約40台（敷地内）＝要求15〜20台を大幅に超える唯一の物件。</strong>
+平屋487.65㎡で、カラオケ店跡なので無柱の大空間が残っている可能性がある。居抜き・即引渡可・エアコン・男女別トイレ・給湯。
+木造なので<strong>梁下高さと無柱スパンが争点</strong>。らくすむの<strong>貸店舗</strong>カテゴリ</td>
+</tr>
+
+<tr>
+<td class="rank B">B</td>
+<td><strong><a href="https://www.rakusumu.com/rent/detail/00071-100484">新組貸物件</a> ／ <a href="https://www.rakusumu.com/sale/detail/00071-200101">新組町売物件</a></strong><br>長岡市新組町2145-3</td>
+<td>404㎡<br>（122.21坪）<br>土地828.81㎡（250.71坪）</td>
+<td>賃30.8万円/月<br>（2026.4月賃料改定）<br>売2,980万円<br>（2026.3月価格改定）</td>
+<td>鉄骨造・<strong>地上2階建</strong><br>1994年6月<br>（築32年・<strong>新耐震</strong>）</td>
+<td>記載なし</td>
+<td><strong>★「駐車場20台駐車可の事務所・倉庫」と明記＝駐車要件を満たす。</strong>
+1994年築は長岡の事業用賃貸で最も新しい水準。賃料も価格も2026年に改定済み（値下げ方向）。
+<strong>備考に「告知事項あり」＝内容の確認が必須。</strong>2階建なので1階面積が争点。ハトマークでは「新組町倉庫」として同じ内容で確認</td>
+</tr>
+
+<tr>
+<td class="rank B">B</td>
+<td><a href="https://www.rakusumu.com/rent/detail/00040-101138">三和貸事務所</a><br>長岡市三和3丁目8-5</td>
+<td>435.71㎡<br>（131.8坪）</td>
+<td>38.5万円/月<br>坪2,921円</td>
+<td>地上2階建<br>1993年4月（築33年）</td>
+<td>記載なし</td>
+<td>「駐車10台以上可、消雪設備完備、1階オフィスはOAフロア、<strong>別棟平屋倉庫あり</strong>」と明記。
+<strong>別棟平屋の面積と梁下を聞く価値がある</strong></td>
+</tr>
+
+<tr class="dim">
+<td class="rank C">C</td>
+<td><a href="https://www.rakusumu.com/rent/detail/00117-100079">中貫町貸店舗倉庫兼住宅</a></td>
+<td>445.93㎡</td>
+<td>15万円/月<br><strong>坪1,112円</strong></td>
+<td>鉄骨造・<strong>地上3階建</strong><br>1992年12月（築33年）</td>
+<td>記載なし</td>
+<td>坪1,112円は鉄工町より安いが「1階店舗、2階倉庫、3階住居」＝1階は約149㎡で不成立。建物向かいに無料駐車場224㎡</td>
+</tr>
+
+<tr class="dim">
+<td class="rank C">C</td>
+<td><a href="https://www.rakusumu.com/sale/detail/00030-200268">天下島売工場・住宅</a></td>
+<td>536.05㎡（1階265.84／2階265.84／3階4.37）<br>＋工場併用住宅（1階302.27／2階247.62）<br>土地975.77㎡（295.17坪）</td>
+<td><strong>500万円</strong></td>
+<td>鉄骨造・<strong>地上3階建（陸屋根）</strong>＋木鉄骨2階建の2棟<br>1970年8月（築56年）</td>
+<td>第1種住居地域</td>
+<td>土地295坪＋建物2棟で500万円という異常な安さの理由は、3階建・築56年・<strong>現況居住中</strong>。土地として見れば坪1.7万円。東側県道幅員8.2m</td>
+</tr>
+
+<tr class="dim">
+<td class="rank C">C</td>
+<td><a href="https://www.rakusumu.com/sale/detail/00017-200384">下条町倉庫・事務所（建築板金業跡地）</a></td>
+<td>348.73㎡（未登記部分76.01㎡含む）<br>土地1,045.7㎡（316.32坪）<br>間口29m×奥行35m</td>
+<td>1,700万円</td>
+<td>木造・地上2階建<br>1991年10月（築35年）</td>
+<td>用途の指定のない地域／<strong>市街化調整区域</strong></td>
+<td><strong>備考に「都市計画法43条の許可が必要」と明記＝片田町と同じ型で原則通らない。</strong>
+空家・角地で土地の形は良い。<strong>長岡市都市計画課（0258-35-1122）への43条照会に、この物件と【下条町】売倉庫も加えられる</strong></td>
+</tr>
+
+<tr class="gone">
+<td class="rank C">C</td>
+<td><a href="https://www.rakusumu.com/sale/detail/00011-200322">草生津3丁目 倉庫・事務所</a><span class="new">再掲載</span></td>
+<td>615.16㎡（186.08坪）<br>土地684.67㎡（207.11坪）</td>
+<td>3,600万円</td>
+<td>1969年7月（築57年）</td>
+<td>記載なし</td>
+<td><strong>★第6回（2026-10-27）で「消滅＝成約」と記録した物件が再掲載されている。</strong>
+「売倉庫の消滅はこれが初」と書いたが、成約ではなかった。<strong>消滅＝成約と即断しない</strong>ことの実例。らくすむの中古一戸建てカテゴリ</td>
+</tr>
+</table>
+</div>
+
+<h3>A判定5件の状況（すべて掲載継続・価格同額）</h3>
+<div class="scroll">
+<table>
+<tr><th class="rank">判</th><th>物件名</th><th>価格</th><th>今回判明したこと</th></tr>
+<tr><td class="rank A">A</td><td><a href="https://www.rakusumu.com/sale/detail/00023-200146">北園町 事務所・工場</a>（越路建設）<span class="keep">継続</span></td><td>1,817.3万円（賃29.7万円/月も継続）</td><td>変更なし。重量鉄骨平屋325.55㎡・2.8tクレーン3基・準工業。<strong>隣接の「北園町 駐車場（183.06坪・20台分・1,464.5万円）」も掲載継続</strong>＝合わせて3,281万円で駐車場問題が解決する</td></tr>
+<tr><td class="rank A">A</td><td><a href="https://www.rakusumu.com/sale/detail/00040-201229">与板売店舗</a>（髙頭不動産）<span class="keep">継続</span></td><td>1,600万円</td><td><strong>★構造・階数・築年が確定＝鉄骨造・地上1階建・1993年11月築（新耐震）・専有358.52㎡。</strong>さらに<strong>土地661㎡（199.95坪）・駐車場9台分</strong>が判明。<strong>長岡のA判定の中で最も形が良い</strong></td></tr>
+<tr><td class="rank A">A</td><td><a href="https://www.rakusumu.com/sale/detail/00040-201194">寿1丁目 売作業所</a>（3社掲載）<span class="keep">継続</span></td><td>2,700万円（3,000万 R8.2.9 → 2,700万 R8.5.20）</td><td><strong>★建物592.96㎡・1991年6月築（新耐震）が確定。</strong>鉄骨2階・土地935.97㎡・2.8t横行縦行天井クレーン1基＋クレーン2基・2階に事務所・宅内井戸。髙頭／佐藤リアルティ／スタッフサイトウの<strong>3社が同額</strong></td></tr>
+<tr><td class="rank A">A</td><td><a href="https://www.rakusumu.com/sale/detail/00039-200282">栃尾 栄町2丁目 売医院</a><span class="keep">継続</span></td><td>1,500万円（賃22万円/月＋管理費1万円も継続）</td><td><strong>★土地843.99㎡（255.3坪）が判明</strong>（従来は建物314.55㎡のみ）。「診療所、介護施設に利用可」と明記＝用途変更の前例が近い</td></tr>
+<tr><td class="rank A">A</td><td><a href="https://www.rakusumu.com/rent/detail/00014-100602">鉄工町1丁目 貸倉庫工場</a>（金井不動産）<span class="keep">継続</span></td><td>22万円/月（507.15㎡・坪1,434円）</td><td>変更なし。長岡の300㎡超賃貸で最安の坪単価だったが、<strong>今回の摂田屋町（983.34㎡・坪1,513円）が面積で上回った</strong></td></tr>
+<tr class="dim"><td class="rank B">B</td><td><a href="https://www.rakusumu.com/rent/detail/00014-100504">西宮内2丁目 貸倉庫</a>（金井不動産）<span class="keep">継続</span></td><td>38万円/月（832.33㎡・坪1,509円）</td><td>入居時期は2027年2月上旬で確定済み（1年3か月後）。駐車場は空き10台で要求15〜20台には不足</td></tr>
+</table>
+</div>
+
+<h3>★長岡の新築用地 ── 準工業・市街化区域で坪1万円が出た</h3>
+<div class="win"><strong>本与板 売土地 1,075坪（管理番号Y25）／エヌ・アール・ケー総合企画</strong><br>
+3,556㎡（1,075.69坪）・<strong>1,075万円＝坪9,993円</strong>・<strong>準工業地域／市街化区域</strong>・造成済み・建築条件なし・「事業用向け」明記。<br>
+地番2436は下水道引込済み・上水道は南側道路より引込可／地番3011は上下水道が北側道路より引込可。<br>
+<strong>準工業地域なので運動施設が建てられ、市街化区域なので都市計画法43条の許可も要らない。</strong>長岡で法規の心配が一切ない唯一の広い土地。
+坪1万円は長岡市街地（北園町の駐車場＝坪8万円）の1/8。<br>
+<strong>同じ与板エリアに「与板貸土地 2,461.9㎡（744.72坪）・10万円/月＝坪134円・準工業地域」（スタッフサイトウ）もあり、
+買う（1,075万円）／借りる（年120万円）を数字で並べられる。坪134円は4市で最安の貸地。</strong></div>
+
+<p>そのほかの長岡の事業用地（1,000㎡超・抜粋）：<strong>十日町 売土地 615.58坪 900万円＝坪14,620円</strong>（国道17号・関越道長岡南スマートIC至近／ドアーズ）／
+<strong>青山町 コンビニ跡地 511.83坪 900万円＝坪17,583円</strong>（南部工業団地近く＝工業系エリアで夜間の打球音に有利／第一住宅新潟）／
+十日町借地 514.25坪 8万円/月＝坪156円・消雪あり（キシコーポレーション）／
+与板町兜巾堂 432.68坪 865万円＝坪2万円／浦（旧越路町）2,232坪 500万円＝坪2,239円。
+<strong>らくすむ売土地786件のうち300㎡以上が258件、1,000㎡以上が52件</strong>あり、長岡は土地の選択肢が4市で最も多い。</p>
+
+<h2>2. 三条市 ── 面積と形が文書で確定した</h2>
+
+<p>らくすむ貸倉庫4件・投資物件19→20件。ただし<strong>三条の本命はハトマークサイトとgoo住宅にしかない</strong>（既知）。</p>
+
+<div class="win"><strong>★ハトマークサイトの「階建」表記で、A候補2件の形が確定した。</strong>
+<div class="scroll"><table>
+<tr><th class="rank">判</th><th>物件名</th><th>面積</th><th>賃料</th><th>階建（今回確定）</th><th>用途地域</th><th>所見</th></tr>
+<tr>
+<td class="rank A">A</td>
+<td><strong><a href="https://www.hatomarksite.com/search/niigata/bukken/5104696467">南四日町3丁目 貸倉庫</a></strong><br>（新創美 0256-36-5566）<span class="keep">継続</span></td>
+<td><strong>806.27㎡</strong><br>（243.89坪）</td>
+<td><strong>35.2万円/月</strong><br><strong>坪1,443円</strong></td>
+<td><strong>地上1階（鉄骨平屋）</strong><br>1970年4月（築56年）</td>
+<td>工業地域</td>
+<td><strong>★三条の本命。鉄骨平屋806.27㎡が確定し、4市で最大級。</strong>坪1,443円は長岡の鉄工町（1,434円）とほぼ同単価。工業地域で用途変更が通りやすい。北側公道6.0m・接面36.6m。<strong>現況居住中で入居は2026年11月中旬＝今月中に空く</strong></td>
+</tr>
+<tr>
+<td class="rank A">A</td>
+<td><strong><a href="https://www.hatomarksite.com/search/niigata/bukken/5104810730">大谷貸倉庫B</a></strong><br>（ウスタ不動産 0256-34-7090）<span class="keep">継続</span></td>
+<td><strong>542.43㎡</strong><br>（164.08坪・<strong>1階部分</strong>）</td>
+<td><strong>11万円/月</strong><br><strong>坪670円</strong></td>
+<td><strong>地上2階建の1階部分</strong><br>1969年11月（築57年）</td>
+<td>第一種住居地域</td>
+<td><strong>★「地上2階 1階部分 542.43㎡」＝1階だけで542.43㎡が確定。形は合格。</strong>坪670円は4市で最安で長岡の鉄工町の半額以下。空家・国道8号角地・三条燕IC車10分・大型トラック搬入可・敷地内と前面道路に消雪パイプ・部分貸し要相談。築57年が唯一のネック</td>
+</tr>
+<tr>
+<td class="rank B">B</td>
+<td><strong><a href="https://www.hatomarksite.com/search/niigata/bukken/5104815845">大谷貸倉庫A</a></strong><br>（ウスタ不動産 0256-34-7090）<span class="new">★今回の追加</span></td>
+<td><strong>1,026㎡</strong><br>（310.36坪・<strong>1階一部＋2階全部</strong>）</td>
+<td><strong>50.05万円/月</strong><br>坪1,613円</td>
+<td>地上2階建<br>1967年8月（築59年）</td>
+<td>第一種住居地域</td>
+<td><strong>★Bと同じ大家・同じ直江町1丁目の別棟（Bは1969年11月築、Aは1967年8月築）。前回のレポートで取りこぼしていた。</strong>賃貸面積1,026㎡は4市で最大だが、物件説明に<strong>「倉庫内1階一部・2階全部の部分貸し」</strong>と明記されているため<strong>1階の面積は不明＝これが唯一かつ最大の論点</strong>。坪1,613円は鉄工町（1,434円）並み。電動シャッター・エレベーター・車寄せ・荷積みスペース・国道8号角地（南西）・三条燕IC車10分・消雪パイプ。<strong>駐車「3台分以上（台数要確認）」は要求15〜20台に対して弱い。</strong>現況居住中・入居予定2026年12月上旬・契約3年・現状渡し・トイレ汲み取り簡易水栓</td>
+</tr>
+<tr>
+<td class="rank B">B</td>
+<td><a href="https://www.hatomarksite.com/search/niigata/bukken/5104794695">一ツ屋敷新田 貸倉庫</a><br>（平松商事 025-286-7515）<span class="keep">継続</span></td>
+<td>478.6㎡<br>（144.77坪）</td>
+<td>44万円/月<br>坪3,040円</td>
+<td>地上1階（平屋）<br><strong>2006年12月（築20年）</strong></td>
+<td>都市計画区域外<br>＝用途制限なし</td>
+<td><strong>4市の300㎡超で最も新しい建物。</strong>軽量鉄骨平屋・空家・土地790坪・定期借家1年。落ちるのは価格だけ</td>
+</tr>
+<tr>
+<td class="rank B">B</td>
+<td><strong><a href="https://house.goo.ne.jp/rent/bb/detail/0/15204/1193205724/00015045/x01193205724.html">北新保2丁目 貸倉庫</a></strong>（goo住宅のみ）<span class="new">新着</span></td>
+<td><strong>609.49㎡</strong><br>土地466.11㎡</td>
+<td>36万円/月<br>坪1,953円</td>
+<td>1階<br><strong>1993年7月（築33年・新耐震）</strong></td>
+<td>記載なし</td>
+<td><strong>★今回の新発見。1993年築＝三条の300㎡超で最も新しい賃貸。</strong>JR三条駅徒歩14分</td>
+</tr>
+<tr>
+<td class="rank B">B</td>
+<td><a href="https://www.hatomarksite.com/search/niigata/bukken/5103322474">中新 貸倉庫等</a><br>（大和土地建物 0256-34-5699）<span class="keep">継続</span></td>
+<td>596.23㎡<br>（1階331.4㎡）</td>
+<td>16万円/月<br>坪886円</td>
+<td>地上2階建<br><strong>1991年1月（築35年・新耐震）</strong></td>
+<td>記載なし</td>
+<td>坪886円で1階331.4㎡＝条件の良い次善。<strong>1991年築が今回確定。</strong>シャッター巾3.4m×高3.7m・空家即時</td>
+</tr>
+</table></div></div>
+
+<h3>★三条の売買で破格の物件が出た</h3>
+<div class="scroll">
+<table>
+<tr><th class="rank">判</th><th>物件名</th><th>建物／土地</th><th>価格</th><th>構造・築年</th><th>用途地域</th><th>所見</th></tr>
+<tr>
+<td class="rank B">B</td>
+<td><strong><a href="https://www.hatomarksite.com/search/niigata/bukken/5104773598">島田2丁目 倉庫</a></strong><br>（大和土地建物）<span class="new">新着</span></td>
+<td><strong>建物延1,073.8㎡</strong><br>土地801.26㎡（242.38坪）</td>
+<td><strong>988万円</strong></td>
+<td>鉄骨造・地上2階建<br>1966年10月（築60年・旧耐震）</td>
+<td>第一種住居地域<br>（運動施設は3,000㎡以下で可）</td>
+<td><strong>★今回の最大の発見（売買）。建物1,073.8㎡が988万円＝4市の売建物で最も㎡単価が安い。</strong>2階建なので1階は約537㎡の見込み＝合格ラインを大きく超える可能性。<strong>築60年の旧耐震が最大のネック。</strong>1階面積と無柱スパンの照会価値が高い</td>
+</tr>
+<tr>
+<td class="rank B">B</td>
+<td><a href="https://www.rakusumu.com/sale/detail/00105-200870">北入蔵2丁目 工場</a><br><small><a href="https://www.hatomarksite.com/search/niigata/bukken/6984226782">ハトマーク（2,349万円）</a></small><span class="keep">継続</span></td>
+<td>699.33㎡（1階507.69／2階161.64）<br>土地1,209.87㎡（365.98坪）</td>
+<td><strong>1,300万円</strong>（ハウスドゥ・R7.8.29改定）<br>／2,349万円（パステル）</td>
+<td>鉄骨造・地上2階建<br>1979年2月（築47年）</td>
+<td>用途無指定／非線引き</td>
+<td>三条で最有力の売買。1階507.69㎡＝面積は合格で、落ちるとしたら梁下高さだけ。<strong>同じ建物が2社で1,049万円差</strong>が交渉材料。空家</td>
+</tr>
+<tr>
+<td class="rank B">B</td>
+<td><a href="https://www.hatomarksite.com/search/niigata/bukken/5104408821">新光町倉庫</a><br>（ウスタ不動産）<span class="keep">値下げ</span></td>
+<td>652.9㎡<br>土地941㎡（284.65坪）</td>
+<td><strong>3,900万円</strong><br>（前回4,000万円 → <strong>100万円値下げ</strong>）</td>
+<td>鉄骨造・地上2階建<br><strong>2001年1月（築25年・新耐震）</strong></td>
+<td>無指定</td>
+<td><strong>三条唯一の2001年築。</strong>電動シャッター・動力あり・エレベーター・消雪パイプ・2019年屋根塗装・2026年4月雨樋修繕。引渡は2027年2月上旬</td>
+</tr>
+<tr>
+<td class="rank B">B</td>
+<td><a href="https://www.hatomarksite.com/search/niigata/bukken/5104042591">西潟 売工場</a><br>（ほりかわ不動産）<span class="keep">継続</span></td>
+<td>485.64㎡<br>土地818.59㎡（247.62坪）</td>
+<td>680万円<br>（8月980万円から30%値下げ）</td>
+<td>鉄骨造・<strong>地上2階建</strong><br>1975年10月（築51年）</td>
+<td>無指定</td>
+<td><strong>★掲載継続を確認（成約ではなかった）。</strong>前回「平屋211.56㎡が合体」と記録したが、ハトマークの表記は地上2階建。空家・動力あり・土地247坪＝坪2.75万円。接道の接面5.5mが弱点</td>
+</tr>
+<tr>
+<td class="rank B">B</td>
+<td><strong><a href="https://www.hatomarksite.com/search/niigata/bukken/5104730655">三竹倉庫</a></strong><br>（にしたか不動産）<span class="new">新着</span></td>
+<td>267.61㎡（80.95坪）<br>土地400.36㎡（121.1坪）</td>
+<td>2,250万円</td>
+<td>鉄骨造・<strong>地上1階（平屋）</strong><br>1979年7月（築47年）</td>
+<td><strong>準工業地域</strong></td>
+<td><strong>三条で唯一の「鉄骨平屋＋準工業地域」の売倉庫。面積だけが32㎡足りない。</strong>東三条駅徒歩13分</td>
+</tr>
+<tr>
+<td class="rank B">B</td>
+<td><a href="https://www.hatomarksite.com/search/niigata/bukken/5104756808">石上2丁目 倉庫</a><br>（大和土地建物）<span class="new">新着</span></td>
+<td>762.89㎡<br>土地1,270.43㎡（384.3坪）</td>
+<td>3,800万円</td>
+<td>鉄骨造・地上2階建<br>1971年12月（築55年）</td>
+<td>第一種住居地域</td>
+<td>2階建なので1階は約381㎡の見込み。燕三条駅徒歩21分</td>
+</tr>
+<tr class="dim">
+<td class="rank C">C</td>
+<td><a href="https://www.hatomarksite.com/search/niigata/bukken/5104574238">西大崎売倉庫</a><br>（大和土地建物 0256-34-5699）<span class="new">★今回の追加</span></td>
+<td>建物延1,320.59㎡<br>土地 実測3,201.68㎡（<strong>968.5坪</strong>）</td>
+<td>7,200万円</td>
+<td>鉄骨造・地上2階建<br>1970年4月（築56年）</td>
+<td>第一種住居地域</td>
+<td><strong>こちらも前回取りこぼし。</strong>三条の売建物で最大（延1,320.59㎡）で、2階建なので1階は約660㎡の見込み＝面積は合格ライン。土地968坪は4市の売建物で最大。<strong>落ちるのは価格（7,200万円）だけ。</strong>弥彦線東三条駅徒歩17分</td>
+</tr>
+<tr class="dim">
+<td class="rank C">C</td>
+<td><a href="https://www.rakusumu.com/sale/detail/00052-200279">柳川新田 倉庫事務所</a><br><small><a href="https://www.hatomarksite.com/search/niigata/bukken/5103806361">ハトマーク</a></small><span class="keep">継続</span></td>
+<td>826.99㎡（250.16坪）<br>土地2,161.65㎡（653.89坪）</td>
+<td>1億円</td>
+<td>鉄骨造・<strong>地上1階（平屋）</strong><br>1985年1月（築41年）</td>
+<td>無指定</td>
+<td>三条で最大の鉄骨平屋。<strong>「地上1階」が今回確定。</strong>表面利回り4.5%＝賃貸中。落ちるのは価格</td>
+</tr>
+<tr class="dim">
+<td class="rank C">C</td>
+<td><a href="https://www.hatomarksite.com/search/niigata/bukken/5104513234">直江町3丁目 工場</a><br>（中川屋）<span class="new">新着</span></td>
+<td>572.92㎡<br>土地425.12㎡（128.59坪）</td>
+<td>700万円</td>
+<td>鉄骨造・地上2階建<br>1972年8月（築54年）</td>
+<td><strong>工業地域</strong></td>
+<td>工業地域で700万円は安いが、土地425㎡＜建物572.92㎡で1階は約286㎡＝300㎡に届かない見込み</td>
+</tr>
+</table>
+</div>
+
+<p>三条の<strong>貸土地</strong>も新たに2件：<a href="https://www.rakusumu.com/rent/detail/00052-100237">西四日町4丁目</a> 573.54坪 28万円/月＝坪488円（<strong>前面道路融雪あり</strong>・敷金12ヶ月＝336万円が重い）／
+<a href="https://www.rakusumu.com/rent/detail/00052-100222">下須頃</a> 335.77坪 13.4万円/月＝坪399円（<strong>燕三条駅・三条燕インター近く</strong>）。いずれもユタカ不動産。</p>
+
+<h2>3. 柏崎市 ── 8日間で動きなし</h2>
+
+<div class="calm">11/03の全倉庫インベントリ（68行）から8日で、らくすむの件数は
+貸倉庫4件（±0）・貸事務所16件（±0）・貸店舗19→18件（小規模テナント1件が消滅）・貸土地7件（±0）・
+投資物件31件（±0）・売土地406→403件・中古一戸建て138→134件。
+<strong>倉庫系とA/B候補は全件掲載継続で、新着・消滅ともなし。</strong></div>
+
+<div class="scroll">
+<table>
+<tr><th class="rank">判</th><th>物件名</th><th>面積／価格</th><th>状態</th><th>所見</th></tr>
+<tr><td class="rank B">B</td><td><strong><a href="https://tanakafudousan-kashiwazaki.com/estate/erb/3562/0/20">北斗町 賃貸工場（工場＋事務所）</a></strong><br>（田中不動産 柏崎支店 0257-41-6325）</td><td>816.99㎡（247.13坪）<br>49.5万円/月＝坪2,003円</td><td><span class="keep">継続・現況「空き」</span></td><td>柏崎唯一の照会価値。<strong>外部動力クレーン有・駐車14台（敷地外13台・消雪設備付き）。</strong>1階面積が未公表。田中不動産 柏崎支店の自社サイトにしかなく、らくすむ・ハトマーク・goo・athome・ホームズ・本社サイトのどこにも無い</td></tr>
+<tr><td class="rank A">A</td><td><a href="https://www.rakusumu.com/sale/detail/00040-200778">柏崎茨目 事業用売地</a>（髙頭不動産）</td><td>4,830.16㎡（1,461.12坪）<br>5,800万円＝坪3.97万円</td><td><span class="keep">継続</span></td><td>間口93m×奥行51m の整形地・地目宅地・上水道と下水道が宅地内・用途の指定のない地域。<strong>取扱が髙頭不動産なので、長岡の照会と同じ電話で聞ける。</strong>髙頭の事業系特集ページには載っていないので、らくすむ側で追う</td></tr>
+<tr><td class="rank A">A</td><td><a href="https://www.rakusumu.com/sale/detail/00089-200030">軽井川売地／貸土地</a>（不動産情報 0257-24-8858）</td><td>1,435㎡（434.08坪）<br>売500万円＝坪11,518円／貸20万円/月</td><td><span class="keep">継続</span></td><td>間口24.4m×奥行55m・上水道と都市ガスが宅地内・用途無指定。売500万なら借地（年240万円）を2年強で上回る</td></tr>
+<tr><td class="rank A">A</td><td><a href="https://www.rakusumu.com/sale/detail/00120-200031">松波1丁目</a>（あすなろ不動産）</td><td>1,921㎡（581.10坪）<br>480万円＝坪8,260円</td><td><span class="keep">継続</span></td><td>第1種住居地域（運動施設は3,000㎡以下で可）。581坪が480万円＝柏崎の広い土地で最も安い水準</td></tr>
+<tr class="dim"><td class="rank C">C</td><td><a href="https://www.rakusumu.com/rent/detail/00350-100010">柏崎市剣野（貸店舗）</a>（裕建）</td><td>495㎡（149.73坪）<br>8万円/月＝坪534円</td><td><span class="keep">継続</span></td><td>4市で最も惜しい物件。木造平屋495㎡・2008年築・即引渡だが<strong>第一種低層住居専用地域でスポーツの練習場が建築不可</strong></td></tr>
+<tr class="dim"><td class="rank B">B</td><td><a href="https://www.rakusumu.com/sale/detail/00227-200075">安田 売工場（食品工業）</a>（リメイク）</td><td>883.36㎡／土地2,381.87坪<br>売9,800万円／賃150万円/月</td><td><span class="keep">継続</span></td><td>柏崎で唯一の鉄骨平屋300㎡超。価格が壁</td></tr>
+</table>
+</div>
+
+<p style="font-size:12px;color:#666;">柏崎の背景（11/03 判明）は変わらない＝<strong>市街地（市内平野部）の垂直積雪量130cm</strong>（長岡市街地250cmの約半分）、
+市街化調整区域0件、代わりに安い土地は地目が「田」で<strong>農地法</strong>の許可が必要。詳細は
+<a href="2026-11-03_柏崎市_全倉庫インベントリ.html">柏崎市 全倉庫インベントリ</a>。</p>
+
+<h2>4. 上越市 ── 消滅1件、全カテゴリ走査で新規3件</h2>
+
+<div class="alert"><strong>★消滅：新光町3丁目 工場・倉庫（6,950万円・鉄骨2階537.07㎡・土地641坪・準工業・空家・三方接道／髙頭不動産）。</strong>
+らくすむ上越の投資物件49件にも、髙頭不動産の事業系売買13件にも無い。<strong>成約の可能性が高い</strong>が、
+長岡の草生津3丁目が再掲載された例があるので、次回も確認する。</div>
+
+<div class="scroll">
+<table>
+<tr><th class="rank">判</th><th>物件名</th><th>面積</th><th>賃料／価格</th><th>構造・築年</th><th>用途地域</th><th>所見</th></tr>
+<tr><td class="rank A">A</td><td><a href="https://www.rakusumu.com/sale/detail/00040-200919">板倉区長嶺 売店舗</a>（髙頭不動産）<span class="keep">継続</span></td><td>427.13㎡（1階部分）<br><strong>土地5,505.82㎡（1,665.51坪）</strong></td><td>5,800万円</td><td>鉄骨造・地上1階<br>1994年12月（築32年・新耐震）</td><td>都市計画区域外<br>＝用途制限なし</td><td><strong>★土地5,505.82㎡（1,665.51坪）が今回判明</strong>（従来は建物のみ）。飲食店仕様。上越で唯一のA判定だが、長岡のA判定の2〜4倍の価格で立地も遠い</td></tr>
+<tr><td class="rank B">B</td><td><a href="https://www.rakusumu.com/rent/detail/00238-100259">下源入貸店舗B</a>（日成商事）<span class="new">新着</span></td><td>433.62㎡（131.17坪）</td><td>33万円/月<br>坪2,515円</td><td>1983年（築43年）</td><td>記載なし</td><td><strong>★掲載文に「イベントハウス・フィットネスクラブ・ネットカフェ・レストランなど最適」と明記＝4市で運動系の用途が想定されている唯一の物件。</strong>国道8号線沿い・平成28年9月リフォーム済・厨房設備・事務所スペースあり</td></tr>
+<tr><td class="rank B">B</td><td><a href="https://www.rakusumu.com/rent/detail/00238-100338">春日新田2丁目 貸事務所・倉庫</a>（日成商事）<span class="new">新着</span></td><td>345.7㎡（104.57坪）</td><td>36.3万円/月<br>坪3,472円</td><td>1985年（築41年）</td><td>記載なし</td><td><strong>「大型倉庫付貸事務所」</strong>なので倉庫部分の面積が本命。消雪設備あり。坪3,472円は高い</td></tr>
+<tr><td class="rank B">B</td><td><a href="https://www.rakusumu.com/sale/detail/00263-200131">潟町 大型倉庫</a>（日建不動産）<span class="keep">継続</span></td><td>約1,157㎡（約350坪）<br>土地4,131.26㎡（1,249.7坪）</td><td>1,875万円</td><td>木造平屋</td><td>近隣商業地域</td><td>面積は十分だが木造。土地1,250坪＝坪1.5万円。現況賃貸中</td></tr>
+<tr><td class="rank B">B</td><td><a href="https://www.rakusumu.com/sale/detail/00263-200122">春日山3丁目 売事務所・倉庫【賃貸相談可】</a><span class="keep">継続</span></td><td>537.07㎡<br>土地1,247.57㎡（377.38坪）</td><td>6,800万円</td><td>鉄骨造・地上2階建<br>1999年（築27年・新耐震）</td><td>記載なし</td><td><strong>売物件だが賃貸も相談可能</strong>と明記。空家・駐車20台</td></tr>
+<tr class="dim"><td class="rank C">C</td><td><a href="https://www.rakusumu.com/rent/detail/00403-100016">稲田倉庫</a><span class="keep">継続</span></td><td>381.6㎡（115.43坪）</td><td>33万円/月</td><td>リフト付き・地上2階建<br>1976年（築50年）</td><td><strong>第1種中高層住居専用地域＝運動施設の建築不可</strong></td><td>上越の賃貸で最大面積だが用途地域で落ちる。取扱がいえみらいサポートに変わっている</td></tr>
+<tr class="dim"><td class="rank C">C</td><td><a href="https://www.rakusumu.com/sale/detail/00262-200004">富岡 事務所・倉庫</a>（高田商事）<span class="new">新着</span></td><td>土地376.78㎡（113.97坪）</td><td>1,550万円</td><td>-</td><td>記載なし</td><td>「角地、事業用として立地最適」と明記だが、土地376.78㎡では建物300㎡＋駐車が入らない</td></tr>
+</table>
+</div>
+
+<p>上越の<strong>貸土地・売土地</strong>（新規）：中通町借地 400坪 12万円/月＝坪300円（<strong>南高田駅徒歩3分・貸主につき仲介手数料なし</strong>／杉山建設）／
+下新町 383.87坪 12万円/月＝坪313円（国道18号バイパス近く・資材置場用地）／
+石橋事業用貸地 984.9坪 80万円/月＝坪812円（国道8号沿い）／
+<strong>横曽根 1,252.22坪 600万円＝坪4,791円</strong>（国道18号・大型商業施設アクセス良好／よつば不動産＝<strong>4市の売土地で最も安い水準</strong>）／
+頸城区上神原 2,056.86坪 2,000万円＝坪9,723円（「事業用地にいかがでしょうか」）。</p>
+
+<h2>5. 4市の比較（第8回時点）</h2>
+
+<div class="scroll">
+<table>
+<tr><th>観点</th><th>長岡市</th><th>三条市</th><th>柏崎市</th><th>上越市</th></tr>
+<tr><td>A判定の既存建物</td><td><strong>5件＋今回1件＝6件</strong></td><td><strong>2件</strong>（賃貸）</td><td>0件（B 1件）</td><td>1件</td></tr>
+<tr><td>最大の鉄骨平屋（賃貸）</td><td><strong>摂田屋町 983.34㎡<br>45万円＝坪1,513円</strong></td><td><strong>南四日町3丁目 806.27㎡<br>35.2万円＝坪1,443円</strong></td><td>安田 883.36㎡<br>150万円＝坪5,614円</td><td>なし（最大は2階建381.6㎡）</td></tr>
+<tr><td>300㎡超で最安の坪単価</td><td>鉄工町 坪1,434円<br><small>（加津保町 坪383円は木造築113年）</small></td><td><strong>大谷貸倉庫B 坪670円</strong><br>（1階542.43㎡）</td><td>剣野 坪534円<br><small>（用途地域で不可）</small></td><td>稲田倉庫 坪2,859円<br><small>（用途地域で不可）</small></td></tr>
+<tr><td>最も新しい300㎡超</td><td>新組 1994年（404㎡）</td><td><strong>一ツ屋敷新田 2006年</strong>（478.6㎡）</td><td>剣野 2008年（用途不可）</td><td>春日山3丁目 1999年（売）</td></tr>
+<tr><td>駐車15〜20台</td><td><strong>要町1丁目 約40台</strong>／新組 20台／北園町は駐車場を別途取得</td><td>一ツ屋敷新田（土地790坪）</td><td>北斗町 14台（消雪付）</td><td>春日山3丁目 20台（売）</td></tr>
+<tr><td>新築用地の最良</td><td><strong>本与板 1,075坪 坪9,993円<br>準工業・市街化区域</strong></td><td>下須頃 335坪 貸坪399円</td><td>軽井川 434坪 坪11,518円<br>／茨目 1,461坪 坪3.97万円</td><td><strong>横曽根 1,252坪 坪4,791円</strong></td></tr>
+<tr><td>垂直積雪量（市街地）</td><td>250cm</td><td>（未調査）</td><td><strong>130cm</strong></td><td>130〜300cm（市に要確認）</td></tr>
+<tr><td>立地（長岡の中高生）</td><td><strong>◎ 市街地15分圏</strong></td><td>車35分</td><td>車50分</td><td>車70分</td></tr>
+</table>
+</div>
+
+<div class="alert"><strong>結論は変わらない。長岡が本命で、照会すべき建物も長岡に出た。</strong>
+今回の摂田屋町（983.34㎡・鉄骨平屋・坪1,513円）は、面積・形・単価の3つで長岡の既存候補すべてを上回る。
+落とすとしたら<strong>未登記＝検査済証なし</strong>の一点。<br>
+<strong>三条は南四日町3丁目（平屋806.27㎡）が今月空くので、長岡が不調なら現実的な第2候補になる。</strong>
+<strong>柏崎・上越は、建物では長岡に勝てない。</strong>柏崎は積雪130cmと安い土地、上越は横曽根の坪4,791円が唯一の取り柄で、どちらも立地で詰む。</div>
+
+<h2>6. 次のアクション（優先順）</h2>
+
+<ol class="actions">
+<li><strong>新日本地所 ── 摂田屋町貸倉庫（983.34㎡・45万円/月）。今回いちばん急ぐ。</strong><br>
+①<strong>「未登記のままで倉庫→運動施設の用途変更の建築確認は通りますか」「検査済証はありますか」</strong>（これが通らなければ以下は不要）
+②<strong>無柱スパン（短辺）と奥行（長辺）</strong> ③<strong>梁下の有効天井高</strong> ④駐車台数 ⑤用途地域。<br>
+<strong>大型の貸倉庫は市場に出ると早い</strong>（東蔵王2丁目1,054.59㎡は19日で消滅した）。983.34㎡は長岡市内で最大級なので、先送りは1件失うことと同義。</li>
+
+<li><strong>髙頭不動産 ── 1本で4件聞ける。</strong><br>
+①<strong>寿1丁目 売作業所</strong>（2,700万円・建物592.96㎡・1991年築が確定）＝クレーンのフック上限高さと価格相談
+②<strong>与板売店舗</strong>（1,600万円・鉄骨平屋358.52㎡・1993年築・駐車9台）＝梁下高さと検査済証
+③<strong>要町1丁目 貸店舗</strong>（487.65㎡・木造平屋・駐車約40台）＝梁下高さと無柱スパン
+④<strong>柏崎茨目 事業用売地</strong>（5,800万円・1,461坪）＝値下げ余地と<strong>分割売買の可否</strong>（500坪なら2,000万円前後）。</li>
+
+<li><strong>越路建設 0258-34-3433 ── 北園町（A判定・掲載継続）。</strong><br>
+①工場の梁下・無柱スパン・検査済証 ②隣接の駐車場（183.06坪・20台分・1,464.5万円）との距離 ③<strong>まとめ買い価格</strong>（工場1,817万＋駐車場1,464万＝3,281万円）。</li>
+
+<li><strong>長岡市都市計画課 0258-35-1122 ── 43条照会に2件追加できる。</strong><br>
+片田町の10件に加えて、今回出た<strong>下条町倉庫・事務所（1,700万円・316坪）</strong>と<strong>【下条町】売倉庫（1,300万円・309坪）</strong>も市街化調整区域。
+<strong>1本の電話で12件が片付く。</strong></li>
+
+<li><strong>新創美 0256-36-5566 ── 三条 南四日町3丁目（平屋806.27㎡・35.2万円/月）。今月空く。</strong><br>
+①無柱スパンと奥行 ②梁下高さ ③検査済証 ④入居可能日の確定。<strong>工業地域なので用途変更は通りやすい。</strong></li>
+
+<li><strong>エヌ・アール・ケー総合企画 ── 本与板 売土地 1,075坪（1,075万円・準工業・市街化区域）。</strong><br>
+①<strong>分割売買の可否</strong>（1,075坪は過大。400〜500坪なら400〜500万円） ②上下水の引込費用 ③<strong>与板の垂直積雪量</strong>（長岡市の地域別区分のどこか） ④造成の仕上がり。
+同じ電話で<strong>喜多町貸倉庫（467.22㎡・2階建）の1階面積</strong>も聞ける（同社扱い）。</li>
+
+<li><strong>大和土地建物 0256-34-5699 ── 三条 島田2丁目 倉庫（建物1,073.8㎡・988万円）。</strong><br>
+①1階面積と無柱スパン ②築60年の躯体の状態と耐震診断の有無 ③第一種住居地域での運動施設（3,000㎡以下）の可否。
+<strong>1階が500㎡超で躯体が使えるなら、988万円は4市で最も安い「形の合う建物」になる。</strong></li>
+
+<li><strong>グリーン土地 ── 長岡 新組（404㎡・1994年築・駐車20台）。「告知事項あり」の内容を先に聞く。</strong><br>
+内容次第で以降を打ち切れる。問題なければ1階面積・無柱スパン・梁下。賃30.8万円 vs 売2,980万円の比較も可能。</li>
+</ol>
+
+<div class="calm" style="margin-top:28px;"><strong>第7回から持ち越している宿題（未着手）。</strong>
+①金井不動産（西宮内の空き時期は2027年2月で決着済み／<strong>鉄工町の梁下</strong>が残っている）
+②髙頭（上記2に統合）
+③長岡市都市計画課（上記4に統合）
+④越路建設（上記3に統合）。
+<strong>摂田屋町が加わったことで、電話の優先順位は「新日本地所 → 髙頭 → 越路建設」に変わった。</strong></div>
+
+<div class="sources">
+<strong>今回走査したソース（2026年11月11日）</strong>
+
+<h3 style="margin-top:14px;">らくすむ 全カテゴリ×4市（エリアコード：長岡15202・三条15204・柏崎15205・上越15222）</h3>
+<div class="scroll"><table>
+<tr><th>カテゴリ</th><th>長岡</th><th>三条</th><th>柏崎</th><th>上越</th></tr>
+<tr><td><code>rent/area/list/6</code> 貸倉庫・貸工場</td><td><strong>33件</strong>（前回29＝<strong>+4</strong>）</td><td>4件</td><td>4件</td><td>11件</td></tr>
+<tr><td><code>rent/area/list/5</code> 貸事務所</td><td>71件</td><td>6件</td><td>16件</td><td>43件</td></tr>
+<tr><td><code>rent/area/list/4</code> 貸店舗</td><td>74件</td><td>16件</td><td>18件（前回19）</td><td>32件</td></tr>
+<tr><td><code>rent/area/list/3</code> 貸土地</td><td>38件</td><td>3件</td><td>7件</td><td>11件</td></tr>
+<tr><td><code>rent/area/list/2</code> 月極駐車場</td><td>（未走査）</td><td>-</td><td>23件</td><td>-</td></tr>
+<tr><td><code>sale/area/list/6</code> 投資物件・その他</td><td>126件（前回127）</td><td><strong>20件</strong>（前回19＝<strong>+1</strong>）</td><td>31件</td><td>49件</td></tr>
+<tr><td><code>sale/area/list/5</code> 売土地・分譲地<br><small>（<code>&amp;tochi_low=300</code> で300㎡以上に絞れる）</small></td><td><strong>786件</strong>／300㎡以上258件／1,000㎡以上52件</td><td>70件／300㎡以上23件</td><td>403件（前回406）／300㎡以上148件</td><td>483件／300㎡以上252件</td></tr>
+<tr><td><code>sale/area/list/4</code> 中古一戸建て</td><td>248件（倉庫系8件）</td><td>25件</td><td>134件（前回138）</td><td>192件</td></tr>
+</table></div>
+
+<h3>ポータル・地元系</h3>
+<ul>
+<li>ハトマークサイト新潟 <strong>貸ビル・倉庫・その他</strong>（<code>/search/niigata/rent/biz/other/area/15/list?m_adr[]=◯&amp;limit=50</code>）… 長岡2件（クローバーハウス739.03㎡ほか）／<strong>三条は本命3件がここ</strong>／柏崎0件</li>
+<li>ハトマークサイト新潟 <strong>売ビル・倉庫・その他</strong>（<code>/buy/other/...</code>）… 長岡（新組町倉庫404㎡1994年築・新組町工場2,000万円を確認）／<strong>三条18件＝島田2丁目・石上2丁目・三竹・直江町3丁目・西潟・新光町倉庫はここだけ</strong></li>
+<li>goo住宅・不動産 <strong>貸倉庫</strong>（<code>/rent/bb/special/5004/area_niigata/◯.html</code>）… <strong>三条45件（北新保2丁目609.49㎡1993年築はここだけ）</strong>／柏崎0件</li>
+<li>髙頭不動産 事業系売買（<code>takato-f.jp/sale_feature/result/93786</code>）… 13件。与板売店舗・寿1丁目・柏町2丁目・板倉区長嶺・西山町を確認。<strong>新光町3丁目は無し＝消滅</strong>。<strong>ブラウザからのアクセスは拒否されるのでWebFetch（web-fetchエージェント）で読む</strong></li>
+<li>髙頭不動産 事業系賃貸（<code>/rent_feature/result/150033</code>）… 8件。三和貸事務所435.71㎡・堺東町貸土地を確認</li>
+<li>田中不動産 柏崎支店（<code>tanakafudousan-kashiwazaki.com</code>）… 4件。<strong>北斗町 賃貸工場816.99㎡が現況「空き」のまま掲載継続</strong></li>
+</ul>
+
+<h3>★次回以降の走査手順（今回確定）</h3>
+<p><strong>らくすむは「倉庫・工場」カテゴリだけ見ると倉庫を取りこぼす。</strong>今回、長岡でも実証された。
+<strong>要町1丁目（487.65㎡・木造平屋・駐車40台）は貸店舗、新組（404㎡・1994年築・駐車20台）と三和（別棟平屋倉庫あり）は貸事務所、
+本与板（1,075坪・準工業）は売土地、草生津3丁目と新町2丁目と寿1丁目の730㎡は中古一戸建て</strong>に入っていた。
+<strong>4市すべてで、賃貸4カテゴリ（list/6・5・4・3）と売買3カテゴリ（list/6・5・4）を毎回走る。</strong>
+売土地は件数が多いので <code>&amp;tochi_low=300</code> で絞り、1,000㎡以上を拾う。中古一戸建ては「倉庫／工場／作業所／作業場」で絞る。</p>
+<p>そのうえで、<strong>市ごとに強いソースが違う</strong>ことも変わらない＝
+<strong>長岡＝らくすむ＋地元3社（髙頭・金井・くらさぽ）／三条＝ハトマークサイト＋goo住宅／柏崎＝裕建と田中不動産 柏崎支店の自社サイト／上越＝らくすむ＋髙頭。</strong></p>
+<p>本レポートとCSVの「物件URL」列をそのまま開けば、次回は掲載継続／消滅が確認できる。
+<strong>ただし長岡の草生津3丁目が再掲載された例があるので、消滅＝成約と即断せず、次回も同じ名前で検索する。</strong></p>
+</div>
+
+</body>
+</html>
